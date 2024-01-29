@@ -1,0 +1,28 @@
+@import "_normalize";
+@import "_variables";
+@import "_mixins";
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: $black;
+  background: $white;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+}

@@ -1,0 +1,58 @@
+{
+  "name": "gulp-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "gulp build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/polyfill": "^7.8.3",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.7",
+    "autoprefixer": "^10.4.4",
+    "babel-loader": "^8.2.4",
+    "browser-sync": "^2.27.9",
+    "gh-pages": "^3.2.3",
+    "glob-parent": ">=6.0.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-notifier": ">=10.0.1",
+    "node-sass": "^7.0.1",
+    "tar": ">=6.1.11",
+    "through2": "^4.0.2",
+    "trim-newlines": ">=4.0.2",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^5.70.0",
+    "webpack-sources": "^3.2.3",
+    "webpack-stream": "^7.0.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "dependencies": {
+    "minimist": ">=1.2.6"
+  }
+}
